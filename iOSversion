@@ -1,0 +1,53 @@
+import UIKit
+
+/// EarthSupps Design System
+/// Design tokens for iOS implementation
+struct DesignTokens {
+    
+    //- Colors
+    struct Colors {
+        // Primary Color Palette
+        static let vibrantGold = UIColor(red: 255/255, green: 190/255, blue: 0/255, alpha: 1.0)
+        static let brightCoral = UIColor(red: 255/255, green: 0/255, blue: 0/255, alpha: 1.0)
+        static let foamBlue = UIColor(red: 190/255, green: 213/255, blue: 232/255, alpha: 1.0)
+        static let forrestGreen = UIColor(red: 18/255, green: 39/255, blue: 0/255, alpha: 1.0)
+        static let warmGreen = UIColor(red: 46/255, green: 71/255, blue: 57/255, alpha: 1.0)
+        static let armyGreen = UIColor(red: 87/255, green: 89/255, blue: 0/255, alpha: 1.0)
+        static let white = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0)
+        
+        // Secondary Color Palette
+        static let deepEarthGreen = UIColor(red: 82/255, green: 90/255, blue: 67/255, alpha: 1.0)
+        static let lightEarthyGreen = UIColor(red: 156/255, green: 161/255, blue: 138/255, alpha: 1.0)
+        static let pale = UIColor(red: 231/255, green: 219/255, blue: 205/255, alpha: 1.0)
+        static let clay = UIColor(red: 171/255, green: 111/255, blue: 77/255, alpha: 1.0)
+        static let wetSoil = UIColor(red: 131/255, green: 70/255, blue: 41/255, alpha: 1.0)
+    }
+    
+    //- Typography
+    struct Typography {
+        // Font Sizes
+        static let headerSize: CGFloat = 24.0
+        static let poppinsBodySize: CGFloat = 14.0
+        static let robotoBodySize: CGFloat = 16.0
+        
+        // Font Names
+        static let poppinsRegular = "Poppins-Regular"
+        static let poppinsMedium = "Poppins-Medium"
+        static let poppinsBold = "Poppins-Bold"
+        static let robotoRegular = "Roboto-Regular"
+        static let robotoMedium = "Roboto-Medium"
+        
+        // Helper methods to create fonts
+        static func poppinsHeader() -> UIFont {
+            return UIFont(name: poppinsBold, size: headerSize) ?? UIFont.systemFont(ofSize: headerSize, weight: .bold)
+        }
+        
+        static func poppinsBody() -> UIFont {
+            return UIFont(name: poppinsRegular, size: poppinsBodySize) ?? UIFont.systemFont(ofSize: poppinsBodySize, weight: .regular)
+        }
+        
+        static func robotoBody() -> UIFont {
+            return UIFont(name: robotoRegular, size: robotoBodySize) ?? UIFont.systemFont(ofSize: robotoBodySize, weight: .regular)
+        }
+    }
+}
