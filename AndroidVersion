@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/design_tokens.xml -->
+<resources>
+    <!-- Primary Color Palette -->
+    <color name="vibrant_gold">#FFBE00</color>
+    <color name="bright_coral">#FF0000</color>
+    <color name="foam_blue">#BED5E8</color>
+    <color name="forrest_green">#122700</color>
+    <color name="warm_green">#2E4739</color>
+    <color name="army_green">#575900</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Secondary Color Palette -->
+    <color name="deep_earth_green">#525A43</color>
+    <color name="light_earthy_green">#9CA18A</color>
+    <color name="pale">#E7DBCD</color>
+    <color name="clay">#AB6F4D</color>
+    <color name="wet_soil">#834629</color>
+    
+    <!-- Typography -->
+    <dimen name="poppins_header_size">24sp</dimen>
+    <dimen name="poppins_body_size">14sp</dimen>
+    <dimen name="roboto_body_size">16sp</dimen>
+    
+    <!-- Font Family definitions (for reference) -->
+    <string name="font_family_poppins">poppins</string>
+    <string name="font_family_roboto">roboto</string>
+</resources>
