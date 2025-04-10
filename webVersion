@@ -1,0 +1,66 @@
+{
+  "color": {
+    "Vibrant Gold": {
+      "value": "rgba(255,190,0,1)",
+      "comment": "Primary Color Palette"
+    },
+    "Bright Coral": {
+      "value": "rgba(255,0,0,1)",
+      "comment": "Primary Color Palette"
+    },
+    "Foam Blue": {
+      "value": "rgba(190,213,232,1)",
+      "comment": "Primary Color Palette"
+    },
+    "Forrest Green": {
+      "value": "rgba(18,39,0,1)",
+      "comment": "Primary Color Palette"
+    },
+    "Warm Green": {
+      "value": "rgba(46,71,57,1)",
+      "comment": "Primary Color Palette"
+    },
+    "Army Green": {
+      "value": "rgba(87,89,0,1)",
+      "comment": "Primary Color Palette"
+    },
+    "White": {
+      "value": "rgba(255,255,255,1)",
+      "comment": "Primary Color Palette"
+    },
+    "Deep Earth Green": {
+      "value": "rgba(82,90,67,1)",
+      "comment": "Secondary Color Palette"
+    },
+    "Light-Earthy Green": {
+      "value": "rgba(156,161,138,1)",
+      "comment": "Secondary Color Palette"
+    },
+    "Pale": {
+      "value": "rgba(231,219,205,1)",
+      "comment": "Secondary Color Palette"
+    },
+    "Clay": {
+      "value": "rgba(171,111,77,1)",
+      "comment": "Secondary Color Palette"
+    },
+    "Wet Soil": {
+      "value": "rgba(131,70,41,1)",
+      "comment": "Secondary Color Palette"
+    }
+  },
+  "size": {
+    "Poppins Headers": {
+      "value": "24",
+      "comment": "Headers within app"
+    },
+    "Poppings body text": {
+      "value": "14",
+      "comment": "body type used in wireframes"
+    },
+    "Roboto Body Type": {
+      "value": "16",
+      "comment": "Wireframe body text under Poppins Header"
+    }
+  }
+}
